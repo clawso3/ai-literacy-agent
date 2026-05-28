@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/christopherlawson/Desktop/ai-literacy-agent/app/globals.css"],"sourcesContent":["@import \"tailwindcss\";\n\n/* Fade-in animation */\n@keyframes fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n\n.animate-fadeIn {\n  animation: fadeIn 0.8s ease-out;\n}\n\n/* Slide-up animation */\n@keyframes slideUp {\n  from {\n    opacity: 0;\n    transform: translateY(20px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n.animate-slideUp {\n  animation: slideUp 0.7s ease-out;\n}\n\n/* Smooth font rendering */\nhtml, body {\n  -webkit-font-smoothing: antialiased;\n  text-rendering: optimizeLegibility;\n}\n"],"names":[],"mappings":"AAGA;;;;;;;;;;AASA;;;;AAKA;;;;;;;;;;;;AAWA;;;;AAKA"}}]
+}
